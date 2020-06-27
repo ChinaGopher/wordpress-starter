@@ -5,4 +5,9 @@
   transition:all 0.4s ease-in-out 0s;
 }
 
-.pricingTable
+.pricingTable-header {
+  padding:25px 10px;
+  background-color:#fff;
+}
+
+.pricingTable .pricingTable-header h3 {
