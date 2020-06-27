@@ -90,3 +90,24 @@
 
 .pricingTable .btn-block:hover {
   background:#fff;
+  color:#008b8b;
+  border:1px solid #008b8b;
+}
+
+.pricingTable.purple .pricing-plans {
+  background-color:#b696e9;
+}
+
+.pricingTable.yellow .pricing-plans {
+  background-color:#e8ae42;
+}
+
+.pricingTable.green .pricing-plans {
+  background-color:#008b8b;
+}
+
+@media screen and (max-width:990px) {
+  .pricingTable {
+    margin-bottom:30px;
+  }
+}
