@@ -11,3 +11,11 @@
 }
 
 .pricingTable .pricingTable-header h3 {
+  font-size:21px;
+  letter-spacing:2px;
+  color:#000;
+  text-transform:uppercase;
+  margin-top:10px;
+}
+
+.pricingTa
