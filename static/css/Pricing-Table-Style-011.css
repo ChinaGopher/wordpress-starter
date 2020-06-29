@@ -28,4 +28,11 @@
 }
 
 .price-value {
-  f
+  font-size:25px;
+  line-height:35px;
+  color:#fff;
+  display:inline-block;
+  position:relative;
+}
+
+.price-valu
