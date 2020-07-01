@@ -35,4 +35,12 @@
   position:relative;
 }
 
-.price-valu
+.price-value i {
+  position:absolute;
+  top:3px;
+  font-size:22px;
+}
+
+.price-value span {
+  font-size:40px;
+  color:#
