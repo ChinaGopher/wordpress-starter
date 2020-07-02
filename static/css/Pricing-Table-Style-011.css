@@ -50,4 +50,11 @@
 .pricing-plans .month {
   color:#fff;
   display:inline-block;
-  font-size:
+  font-size:15px;
+  margin-top:15px;
+  font-weight:100;
+}
+
+.pricingContent ul {
+  padding:0 15px;
+ 
