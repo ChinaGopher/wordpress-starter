@@ -43,4 +43,11 @@
 
 .price-value span {
   font-size:40px;
-  color:#
+  color:#fff;
+  margin-left:17px;
+}
+
+.pricing-plans .month {
+  color:#fff;
+  display:inline-block;
+  font-size:
