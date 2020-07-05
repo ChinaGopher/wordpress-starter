@@ -57,4 +57,10 @@
 
 .pricingContent ul {
   padding:0 15px;
- 
+  margin-bottom:0;
+  list-style:none;
+}
+
+.pricingContent ul li {
+  padding:15px 0;
+  text-t
