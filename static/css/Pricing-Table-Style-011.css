@@ -63,4 +63,11 @@
 
 .pricingContent ul li {
   padding:15px 0;
-  text-t
+  text-transform:capitalize;
+}
+
+.pricingContent ul li:nth-child(even) {
+  background-color:#f7f8f4;
+}
+
+.p
