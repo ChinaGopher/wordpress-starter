@@ -93,4 +93,9 @@
   border:1px solid #008b8b;
 }
 
-.pricingTable.purple
+.pricingTable.purple .pricing-plans {
+  background-color:#b696e9;
+}
+
+.pricingTable.yellow .pricing-plans {
+  backgr
