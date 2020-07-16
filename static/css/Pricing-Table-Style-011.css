@@ -87,4 +87,10 @@
   transition:0.3s ease;
 }
 
-.pricingT
+.pricingTable .btn-block:hover {
+  background:#fff;
+  color:#008b8b;
+  border:1px solid #008b8b;
+}
+
+.pricingTable.purple
