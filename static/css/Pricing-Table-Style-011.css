@@ -105,4 +105,9 @@
   background-color:#008b8b;
 }
 
-@media screen a
+@media screen and (max-width:990px) {
+  .pricingTable {
+    margin-bottom:30px;
+  }
+}
+
