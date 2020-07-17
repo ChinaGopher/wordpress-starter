@@ -98,4 +98,11 @@
 }
 
 .pricingTable.yellow .pricing-plans {
-  backgr
+  background-color:#e8ae42;
+}
+
+.pricingTable.green .pricing-plans {
+  background-color:#008b8b;
+}
+
+@media screen a
