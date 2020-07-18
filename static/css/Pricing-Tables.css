@@ -141,3 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pricing-area img {
   position:absolute;
+  right:15px;
+  top:0;
+  z-index:1;
+}
