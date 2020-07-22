@@ -148,3 +148,11 @@ section.testimonials {
   background-color:#798FA5;
   height:32px;
   opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons {
+    text-align:right;
+  }
+}
