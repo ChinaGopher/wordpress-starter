@@ -10,4 +10,9 @@
       var key, value;
       for (key in defaults) {
         value = defaults[key];
-        if (custo
+        if (custom[key] == null) {
+          custom[key] = value;
+        }
+      }
+      return custom;
+ 
