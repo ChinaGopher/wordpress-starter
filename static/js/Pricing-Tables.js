@@ -7,4 +7,7 @@
     function Util() {}
 
     Util.prototype.extend = function(custom, defaults) {
- 
+      var key, value;
+      for (key in defaults) {
+        value = defaults[key];
+        if (custo
