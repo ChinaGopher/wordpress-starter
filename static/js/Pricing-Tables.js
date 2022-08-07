@@ -18,4 +18,7 @@
     };
 
     Util.prototype.isMobile = function(agent) {
-      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(agent);
+    };
+
+    Util.prototype.createEvent = function(event, bubble,
