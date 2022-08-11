@@ -30,4 +30,8 @@
         cancel = false;
       }
       if (detail == null) {
-        detail = 
+        detail = null;
+      }
+      if (document.createEvent != null) {
+        customEvent = document.createEvent('CustomEvent');
+   
