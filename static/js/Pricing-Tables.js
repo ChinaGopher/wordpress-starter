@@ -26,4 +26,8 @@
       if (bubble == null) {
         bubble = false;
       }
-      if (canc
+      if (cancel == null) {
+        cancel = false;
+      }
+      if (detail == null) {
+        detail = 
