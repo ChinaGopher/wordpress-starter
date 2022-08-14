@@ -38,4 +38,10 @@
       } else if (document.createEventObject != null) {
         customEvent = document.createEventObject();
         customEvent.eventType = event;
-      
+      } else {
+        customEvent.eventName = event;
+      }
+      return customEvent;
+    };
+
+    Util.proto
