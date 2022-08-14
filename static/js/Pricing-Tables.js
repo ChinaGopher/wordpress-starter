@@ -35,4 +35,7 @@
       if (document.createEvent != null) {
         customEvent = document.createEvent('CustomEvent');
         customEvent.initCustomEvent(event, bubble, cancel, detail);
-      } else if (document.createEventObject != n
+      } else if (document.createEventObject != null) {
+        customEvent = document.createEventObject();
+        customEvent.eventType = event;
+      
