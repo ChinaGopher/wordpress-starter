@@ -44,4 +44,6 @@
       return customEvent;
     };
 
-    Util.proto
+    Util.prototype.emitEvent = function(elem, event) {
+      if (elem.dispatchEvent != null) {
+        return elem.dispatchEvent(event)
