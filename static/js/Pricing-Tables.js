@@ -49,4 +49,9 @@
         return elem.dispatchEvent(event);
       } else if (event in (elem != null)) {
         return elem[event]();
-      } else if (
+      } else if (("on" + event) in (elem != null)) {
+        return elem["on" + event]();
+      }
+    };
+
+    Util.prototype.add
