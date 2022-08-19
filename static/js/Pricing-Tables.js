@@ -54,4 +54,6 @@
       }
     };
 
-    Util.prototype.add
+    Util.prototype.addEvent = function(elem, event, fn) {
+      if (elem.addEventListener != null) {
+        return elem.a
