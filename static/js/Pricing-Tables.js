@@ -56,4 +56,6 @@
 
     Util.prototype.addEvent = function(elem, event, fn) {
       if (elem.addEventListener != null) {
-        return elem.a
+        return elem.addEventListener(event, fn, false);
+      } else if (elem.attachEvent != null) {
+        return elem.attachEven
