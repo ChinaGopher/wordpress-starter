@@ -58,4 +58,10 @@
       if (elem.addEventListener != null) {
         return elem.addEventListener(event, fn, false);
       } else if (elem.attachEvent != null) {
-        return elem.attachEven
+        return elem.attachEvent("on" + event, fn);
+      } else {
+        return elem[event] = fn;
+      }
+    };
+
+    Util.prototype.remo
