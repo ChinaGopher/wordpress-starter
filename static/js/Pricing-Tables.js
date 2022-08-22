@@ -64,4 +64,6 @@
       }
     };
 
-    Util.prototype.remo
+    Util.prototype.removeEvent = function(elem, event, fn) {
+      if (elem.removeEventListener != null) {
+        r
