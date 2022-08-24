@@ -66,4 +66,6 @@
 
     Util.prototype.removeEvent = function(elem, event, fn) {
       if (elem.removeEventListener != null) {
-        r
+        return elem.removeEventListener(event, fn, false);
+      } else if (elem.detachEvent != null) {
+        ret
