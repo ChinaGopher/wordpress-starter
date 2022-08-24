@@ -71,4 +71,9 @@
         return elem.detachEvent("on" + event, fn);
       } else {
         return delete elem[event];
-    
+      }
+    };
+
+    Util.prototype.innerHeight = function() {
+      if ('innerHeight' in window) {
+        return
