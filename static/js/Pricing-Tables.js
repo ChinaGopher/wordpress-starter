@@ -68,4 +68,7 @@
       if (elem.removeEventListener != null) {
         return elem.removeEventListener(event, fn, false);
       } else if (elem.detachEvent != null) {
-        ret
+        return elem.detachEvent("on" + event, fn);
+      } else {
+        return delete elem[event];
+    
