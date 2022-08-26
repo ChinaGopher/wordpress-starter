@@ -76,4 +76,10 @@
 
     Util.prototype.innerHeight = function() {
       if ('innerHeight' in window) {
-        return
+        return window.innerHeight;
+      } else {
+        return document.documentElement.clientHeight;
+      }
+    };
+
+    return Ut
