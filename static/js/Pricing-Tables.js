@@ -95,4 +95,10 @@
     WeakMap.prototype.get = function(key) {
       var i, item, j, len, ref;
       ref = this.keys;
-      for (i = j = 0, len = ref.length; j < len; i = ++
+      for (i = j = 0, len = ref.length; j < len; i = ++j) {
+        item = ref[i];
+        if (item === key) {
+          return this.values[i];
+        }
+      }
+  
