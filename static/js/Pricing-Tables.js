@@ -92,4 +92,7 @@
       this.values = [];
     }
 
-    WeakMap.prototype.get = function(key) 
+    WeakMap.prototype.get = function(key) {
+      var i, item, j, len, ref;
+      ref = this.keys;
+      for (i = j = 0, len = ref.length; j < len; i = ++
