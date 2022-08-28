@@ -82,4 +82,9 @@
       }
     };
 
-    return Ut
+    return Util;
+
+  })();
+
+  WeakMap = this.WeakMap || this.MozWeakMap || (WeakMap = (function() {
+    function Wea
