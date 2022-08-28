@@ -87,4 +87,9 @@
   })();
 
   WeakMap = this.WeakMap || this.MozWeakMap || (WeakMap = (function() {
-    function Wea
+    function WeakMap() {
+      this.keys = [];
+      this.values = [];
+    }
+
+    WeakMap.prototype.get = function(key) 
