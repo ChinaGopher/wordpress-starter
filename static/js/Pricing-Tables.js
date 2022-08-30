@@ -105,4 +105,7 @@
 
     WeakMap.prototype.set = function(key, value) {
       var i, item, j, len, ref;
-      ref = t
+      ref = this.keys;
+      for (i = j = 0, len = ref.length; j < len; i = ++j) {
+        item = ref[i];
+        if (it
