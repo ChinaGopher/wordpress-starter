@@ -101,4 +101,8 @@
           return this.values[i];
         }
       }
-  
+    };
+
+    WeakMap.prototype.set = function(key, value) {
+      var i, item, j, len, ref;
+      ref = t
