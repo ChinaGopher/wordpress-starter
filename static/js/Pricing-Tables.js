@@ -108,4 +108,9 @@
       ref = this.keys;
       for (i = j = 0, len = ref.length; j < len; i = ++j) {
         item = ref[i];
-        if (it
+        if (item === key) {
+          this.values[i] = value;
+          return;
+        }
+      }
+      this.keys.p
