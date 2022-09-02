@@ -121,4 +121,6 @@
 
   })());
 
-  MutationObserver = this.MutationObserver || this.WebkitMutationObserver || this.MozMutationObserver ||
+  MutationObserver = this.MutationObserver || this.WebkitMutationObserver || this.MozMutationObserver || (MutationObserver = (function() {
+    function MutationObserver() {
+      if (typeof console !== "undef
