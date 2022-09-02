@@ -121,4 +121,4 @@
 
   })());
 
-  M
+  MutationObserver = this.MutationObserver || this.WebkitMutationObserver || this.MozMutationObserver ||
