@@ -113,4 +113,12 @@
           return;
         }
       }
-      this.keys.p
+      this.keys.push(key);
+      return this.values.push(value);
+    };
+
+    return WeakMap;
+
+  })());
+
+  M
