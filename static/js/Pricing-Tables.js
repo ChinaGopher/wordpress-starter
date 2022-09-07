@@ -127,4 +127,8 @@
         console.warn('MutationObserver is not supported by your browser.');
       }
       if (typeof console !== "undefined" && console !== null) {
-        console.warn('WOW.js cannot d
+        console.warn('WOW.js cannot detect dom mutations, please call .sync() after loading new content.');
+      }
+    }
+
+    MutationOb
