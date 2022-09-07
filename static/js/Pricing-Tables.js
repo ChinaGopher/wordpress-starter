@@ -131,4 +131,8 @@
       }
     }
 
-    MutationOb
+    MutationObserver.notSupported = true;
+
+    MutationObserver.prototype.observe = function() {};
+
+    ret
