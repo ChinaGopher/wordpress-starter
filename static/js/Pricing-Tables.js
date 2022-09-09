@@ -143,4 +143,7 @@
     this.getPropertyValue = function(prop) {
       var ref;
       if (prop === 'float') {
-        prop = 's
+        prop = 'styleFloat';
+      }
+      if (getComputedStyleRX.test(prop)) {
+        prop.replace(getCom
