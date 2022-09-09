@@ -140,4 +140,7 @@
   })());
 
   getComputedStyle = this.getComputedStyle || function(el, pseudo) {
-    this.getP
+    this.getPropertyValue = function(prop) {
+      var ref;
+      if (prop === 'float') {
+        prop = 's
