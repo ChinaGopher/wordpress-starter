@@ -135,4 +135,9 @@
 
     MutationObserver.prototype.observe = function() {};
 
-    ret
+    return MutationObserver;
+
+  })());
+
+  getComputedStyle = this.getComputedStyle || function(el, pseudo) {
+    this.getP
