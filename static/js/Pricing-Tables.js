@@ -146,4 +146,8 @@
         prop = 'styleFloat';
       }
       if (getComputedStyleRX.test(prop)) {
-        prop.replace(getCom
+        prop.replace(getComputedStyleRX, function(_, _char) {
+          return _char.toUpperCase();
+        });
+      }
+      return
