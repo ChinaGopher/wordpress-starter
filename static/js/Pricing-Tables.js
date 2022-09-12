@@ -150,4 +150,9 @@
           return _char.toUpperCase();
         });
       }
-      return
+      return ((ref = el.currentStyle) != null ? ref[prop] : void 0) || null;
+    };
+    return this;
+  };
+
+  getComputedStyleR
