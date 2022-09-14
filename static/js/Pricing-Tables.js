@@ -155,4 +155,9 @@
     return this;
   };
 
-  getComputedStyleR
+  getComputedStyleRX = /(\-([a-z]){1})/g;
+
+  this.WOW = (function() {
+    WOW.prototype.defaults = {
+      boxClass: 'wow',
+    
