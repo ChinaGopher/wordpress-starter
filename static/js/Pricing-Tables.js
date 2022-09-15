@@ -164,4 +164,11 @@
       offset: 0,
       mobile: true,
       live: true,
-      callback:
+      callback: null,
+      scrollContainer: null
+    };
+
+    function WOW(options) {
+      if (options == null) {
+        options = {};
+      }
