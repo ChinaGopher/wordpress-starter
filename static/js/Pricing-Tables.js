@@ -160,4 +160,8 @@
   this.WOW = (function() {
     WOW.prototype.defaults = {
       boxClass: 'wow',
-    
+      animateClass: 'animated',
+      offset: 0,
+      mobile: true,
+      live: true,
+      callback:
