@@ -172,3 +172,5 @@
       if (options == null) {
         options = {};
       }
+      this.scrollCallback = bind(this.scrollCallback, this);
+      this.scrollHandler = bind(this.scrollHand
