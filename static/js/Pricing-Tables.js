@@ -173,4 +173,6 @@
         options = {};
       }
       this.scrollCallback = bind(this.scrollCallback, this);
-      this.scrollHandler = bind(this.scrollHand
+      this.scrollHandler = bind(this.scrollHandler, this);
+      this.resetAnimation = bind(this.resetAnimation, this);
+      this.start = bind(this.start, th
