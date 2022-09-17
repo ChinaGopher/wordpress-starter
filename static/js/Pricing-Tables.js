@@ -178,4 +178,5 @@
       this.start = bind(this.start, this);
       this.scrolled = true;
       this.config = this.util().extend(options, this.defaults);
-      if (options.
+      if (options.scrollContainer != null) {
+        this.config.scrollContainer = document.querySelector(options.scro
