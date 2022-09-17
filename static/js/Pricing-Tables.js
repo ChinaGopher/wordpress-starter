@@ -175,4 +175,7 @@
       this.scrollCallback = bind(this.scrollCallback, this);
       this.scrollHandler = bind(this.scrollHandler, this);
       this.resetAnimation = bind(this.resetAnimation, this);
-      this.start = bind(this.start, th
+      this.start = bind(this.start, this);
+      this.scrolled = true;
+      this.config = this.util().extend(options, this.defaults);
+      if (options.
