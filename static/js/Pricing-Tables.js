@@ -187,4 +187,6 @@
 
     WOW.prototype.init = function() {
       var ref;
-      this.element = windo
+      this.element = window.document.documentElement;
+      if ((ref = document.readyState) === "interactive" || ref === "complete") {
+  
