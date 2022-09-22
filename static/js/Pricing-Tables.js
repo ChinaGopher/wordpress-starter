@@ -179,4 +179,7 @@
       this.scrolled = true;
       this.config = this.util().extend(options, this.defaults);
       if (options.scrollContainer != null) {
-        this.config.scrollContainer = document.querySelector(options.scro
+        this.config.scrollContainer = document.querySelector(options.scrollContainer);
+      }
+      this.animationNameCache = new WeakMap();
+      this.wowEvent = this.util().createEvent(thi
