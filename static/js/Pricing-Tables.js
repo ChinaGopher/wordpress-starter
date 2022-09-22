@@ -182,4 +182,9 @@
         this.config.scrollContainer = document.querySelector(options.scrollContainer);
       }
       this.animationNameCache = new WeakMap();
-      this.wowEvent = this.util().createEvent(thi
+      this.wowEvent = this.util().createEvent(this.config.boxClass);
+    }
+
+    WOW.prototype.init = function() {
+      var ref;
+      this.element = windo
