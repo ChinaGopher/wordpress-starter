@@ -189,4 +189,6 @@
       var ref;
       this.element = window.document.documentElement;
       if ((ref = document.readyState) === "interactive" || ref === "complete") {
-  
+        this.start();
+      } else {
+        this.util().addEvent(document, 'DOMContentLoad
