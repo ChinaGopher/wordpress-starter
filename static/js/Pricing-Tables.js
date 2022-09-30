@@ -191,4 +191,10 @@
       if ((ref = document.readyState) === "interactive" || ref === "complete") {
         this.start();
       } else {
-        this.util().addEvent(document, 'DOMContentLoad
+        this.util().addEvent(document, 'DOMContentLoaded', this.start);
+      }
+      return this.finished = [];
+    };
+
+    WOW.prototype.start = function() {
+   
