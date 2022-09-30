@@ -197,4 +197,6 @@
     };
 
     WOW.prototype.start = function() {
-   
+      var box, j, len, ref;
+      this.stopped = false;
+      this.boxes = (function() 
