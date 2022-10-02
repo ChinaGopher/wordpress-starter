@@ -199,4 +199,6 @@
     WOW.prototype.start = function() {
       var box, j, len, ref;
       this.stopped = false;
-      this.boxes = (function() 
+      this.boxes = (function() {
+        var j, len, ref, results;
+        ref = this.element.querySelectorAll("." + this.config.box
