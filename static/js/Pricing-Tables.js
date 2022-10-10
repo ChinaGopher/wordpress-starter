@@ -213,4 +213,8 @@
         var j, len, ref, results;
         ref = this.boxes;
         results = [];
-        for (j = 0, len = ref.length; j 
+        for (j = 0, len = ref.length; j < len; j++) {
+          box = ref[j];
+          results.push(box);
+        }
+        return resul
