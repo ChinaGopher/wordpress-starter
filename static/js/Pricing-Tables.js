@@ -217,4 +217,8 @@
           box = ref[j];
           results.push(box);
         }
-        return resul
+        return results;
+      }).call(this);
+      if (this.boxes.length) {
+        if (this.disabled()) {
+          t
