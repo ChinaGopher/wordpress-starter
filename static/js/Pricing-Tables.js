@@ -224,4 +224,9 @@
           this.resetStyle();
         } else {
           ref = this.boxes;
-          for (j = 0, len = ref.leng
+          for (j = 0, len = ref.length; j < len; j++) {
+            box = ref[j];
+            this.applyStyle(box, true);
+          }
+        }
+   
