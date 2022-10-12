@@ -221,4 +221,7 @@
       }).call(this);
       if (this.boxes.length) {
         if (this.disabled()) {
-          t
+          this.resetStyle();
+        } else {
+          ref = this.boxes;
+          for (j = 0, len = ref.leng
