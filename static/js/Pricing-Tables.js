@@ -229,4 +229,6 @@
             this.applyStyle(box, true);
           }
         }
-   
+      }
+      if (!this.disabled()) {
+        this.util().addEvent(this.config.scroll
