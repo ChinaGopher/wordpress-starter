@@ -235,4 +235,6 @@
         this.util().addEvent(window, 'resize', this.scrollHandler);
         this.interval = setInterval(this.scrollCallback, 50);
       }
-      if (this.co
+      if (this.config.live) {
+        return new MutationObserver((function(_this) {
+          return function(rec
