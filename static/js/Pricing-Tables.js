@@ -231,4 +231,5 @@
         }
       }
       if (!this.disabled()) {
-        this.util().addEvent(this.config.scroll
+        this.util().addEvent(this.config.scrollContainer || window, 'scroll', this.scrollHandler);
+        this.util().addEvent(window, 'resize', this.
