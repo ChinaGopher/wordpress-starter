@@ -232,4 +232,7 @@
       }
       if (!this.disabled()) {
         this.util().addEvent(this.config.scrollContainer || window, 'scroll', this.scrollHandler);
-        this.util().addEvent(window, 'resize', this.
+        this.util().addEvent(window, 'resize', this.scrollHandler);
+        this.interval = setInterval(this.scrollCallback, 50);
+      }
+      if (this.co
