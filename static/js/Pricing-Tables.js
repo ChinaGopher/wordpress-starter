@@ -237,4 +237,7 @@
       }
       if (this.config.live) {
         return new MutationObserver((function(_this) {
-          return function(rec
+          return function(records) {
+            var k, len1, node, record, results;
+            results = [];
+            for (k 
