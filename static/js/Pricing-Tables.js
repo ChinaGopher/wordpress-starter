@@ -244,4 +244,6 @@
               record = records[k];
               results.push((function() {
                 var l, len2, ref1, results1;
-                ref1 = record.addedNodes
+                ref1 = record.addedNodes || [];
+                results1 = [];
+                for (l = 0, len2 = ref1.length; l < len2; 
