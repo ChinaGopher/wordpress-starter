@@ -240,4 +240,6 @@
           return function(records) {
             var k, len1, node, record, results;
             results = [];
-            for (k 
+            for (k = 0, len1 = records.length; k < len1; k++) {
+              record = records[k];
+              resul
