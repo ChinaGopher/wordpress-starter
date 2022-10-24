@@ -246,4 +246,7 @@
                 var l, len2, ref1, results1;
                 ref1 = record.addedNodes || [];
                 results1 = [];
-                for (l = 0, len2 = ref1.length; l < len2; 
+                for (l = 0, len2 = ref1.length; l < len2; l++) {
+                  node = ref1[l];
+                  results1.push(this.doSync(node));
+                
