@@ -254,4 +254,8 @@
               }).call(_this));
             }
             return results;
-   
+          };
+        })(this)).observe(document.body, {
+          childList: true,
+          subtree: true
+    
