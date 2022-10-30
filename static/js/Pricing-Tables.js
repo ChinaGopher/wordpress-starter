@@ -258,4 +258,10 @@
         })(this)).observe(document.body, {
           childList: true,
           subtree: true
-    
+        });
+      }
+    };
+
+    WOW.prototype.stop = function() {
+      this.stopped = true;
+      this.util(
