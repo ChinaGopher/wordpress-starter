@@ -264,4 +264,5 @@
 
     WOW.prototype.stop = function() {
       this.stopped = true;
-      this.util(
+      this.util().removeEvent(this.config.scrollContainer || window, 'scroll', this.scrollHandler);
+      this.util().re
