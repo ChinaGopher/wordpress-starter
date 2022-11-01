@@ -267,4 +267,9 @@
       this.util().removeEvent(this.config.scrollContainer || window, 'scroll', this.scrollHandler);
       this.util().removeEvent(window, 'resize', this.scrollHandler);
       if (this.interval != null) {
-        return clearInterval(this.i
+        return clearInterval(this.interval);
+      }
+    };
+
+    WOW.prototype.sync = function(element) {
+      if (MutationObserver.notSu
