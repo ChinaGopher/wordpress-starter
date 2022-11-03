@@ -272,4 +272,9 @@
     };
 
     WOW.prototype.sync = function(element) {
-      if (MutationObserver.notSu
+      if (MutationObserver.notSupported) {
+        return this.doSync(this.element);
+      }
+    };
+
+    WOW.prototype.doSyn
