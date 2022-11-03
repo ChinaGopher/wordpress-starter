@@ -277,4 +277,7 @@
       }
     };
 
-    WOW.prototype.doSyn
+    WOW.prototype.doSync = function(element) {
+      var box, j, len, ref, results;
+      if (element == null) {
+       
