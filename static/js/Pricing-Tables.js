@@ -280,4 +280,9 @@
     WOW.prototype.doSync = function(element) {
       var box, j, len, ref, results;
       if (element == null) {
-       
+        element = this.element;
+      }
+      if (element.nodeType !== 1) {
+        return;
+      }
+      element =
