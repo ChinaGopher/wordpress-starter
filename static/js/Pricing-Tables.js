@@ -285,4 +285,6 @@
       if (element.nodeType !== 1) {
         return;
       }
-      element =
+      element = element.parentNode || element;
+      ref = element.querySelectorAll("." + this.config.boxClass);
+      results = [];
