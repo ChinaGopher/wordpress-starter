@@ -293,4 +293,6 @@
         if (indexOf.call(this.all, box) < 0) {
           this.boxes.push(box);
           this.all.push(box);
-    
+          if (this.stopped || this.disabled()) {
+            this.resetStyle();
+      
