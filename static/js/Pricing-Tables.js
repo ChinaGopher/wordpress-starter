@@ -288,3 +288,6 @@
       element = element.parentNode || element;
       ref = element.querySelectorAll("." + this.config.boxClass);
       results = [];
+      for (j = 0, len = ref.length; j < len; j++) {
+        box = ref[j];
+        if (indexOf
