@@ -290,4 +290,7 @@
       results = [];
       for (j = 0, len = ref.length; j < len; j++) {
         box = ref[j];
-        if (indexOf
+        if (indexOf.call(this.all, box) < 0) {
+          this.boxes.push(box);
+          this.all.push(box);
+    
