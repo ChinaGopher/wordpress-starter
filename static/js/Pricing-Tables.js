@@ -295,4 +295,7 @@
           this.all.push(box);
           if (this.stopped || this.disabled()) {
             this.resetStyle();
-      
+          } else {
+            this.applyStyle(box, true);
+          }
+          results.pus
