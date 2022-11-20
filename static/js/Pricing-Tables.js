@@ -303,4 +303,9 @@
           results.push(void 0);
         }
       }
-      ret
+      return results;
+    };
+
+    WOW.prototype.show = function(box) {
+      this.applyStyle(box);
+  
