@@ -308,4 +308,5 @@
 
     WOW.prototype.show = function(box) {
       this.applyStyle(box);
-  
+      box.className = box.className + " " + this.config.animateClass;
+      if (this.config.callback != null) 
