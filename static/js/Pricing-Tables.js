@@ -298,4 +298,9 @@
           } else {
             this.applyStyle(box, true);
           }
-          results.pus
+          results.push(this.scrolled = true);
+        } else {
+          results.push(void 0);
+        }
+      }
+      ret
