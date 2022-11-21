@@ -313,3 +313,5 @@
         this.config.callback(box);
       }
       this.util().emitEvent(box, this.wowEvent);
+      this.util().addEvent(box, 'animationend', this.resetAnimation);
+      this.util().addEvent(box, 'oanimationen
