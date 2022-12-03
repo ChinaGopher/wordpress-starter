@@ -317,4 +317,8 @@
       this.util().addEvent(box, 'oanimationend', this.resetAnimation);
       this.util().addEvent(box, 'webkitAnimationEnd', this.resetAnimation);
       this.util().addEvent(box, 'MSAnimationEnd', this.resetAnimation);
-      return box
+      return box;
+    };
+
+    WOW.prototype.applyStyle = function(box, hidden) {
+      var delay, duration, iterat
