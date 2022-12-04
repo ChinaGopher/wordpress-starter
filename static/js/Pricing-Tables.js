@@ -321,4 +321,6 @@
     };
 
     WOW.prototype.applyStyle = function(box, hidden) {
-      var delay, duration, iterat
+      var delay, duration, iteration;
+      duration = box.getAttribute('data-wow-duration');
+      delay = box.getAttribu
