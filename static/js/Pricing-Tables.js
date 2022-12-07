@@ -327,4 +327,9 @@
       iteration = box.getAttribute('data-wow-iteration');
       return this.animate((function(_this) {
         return function() {
-          return _this.customStyl
+          return _this.customStyle(box, hidden, duration, delay, iteration);
+        };
+      })(this));
+    };
+
+    WOW.prototype.
