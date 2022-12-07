@@ -325,4 +325,6 @@
       duration = box.getAttribute('data-wow-duration');
       delay = box.getAttribute('data-wow-delay');
       iteration = box.getAttribute('data-wow-iteration');
-      return thi
+      return this.animate((function(_this) {
+        return function() {
+          return _this.customStyl
