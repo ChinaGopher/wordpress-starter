@@ -332,4 +332,7 @@
       })(this));
     };
 
-    WOW.prototype.
+    WOW.prototype.animate = (function() {
+      if ('requestAnimationFrame' in window) {
+        return function(callback) {
+          return window.req
