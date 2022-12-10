@@ -339,4 +339,9 @@
         };
       } else {
         return function(callback) {
-          re
+          return callback();
+        };
+      }
+    })();
+
+    WOW.prototype.resetStyle = function() {
