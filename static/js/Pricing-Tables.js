@@ -335,4 +335,8 @@
     WOW.prototype.animate = (function() {
       if ('requestAnimationFrame' in window) {
         return function(callback) {
-          return window.req
+          return window.requestAnimationFrame(callback);
+        };
+      } else {
+        return function(callback) {
+          re
