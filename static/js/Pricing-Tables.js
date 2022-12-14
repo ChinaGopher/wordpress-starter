@@ -348,4 +348,6 @@
       var box, j, len, ref, results;
       ref = this.boxes;
       results = [];
-      for (j = 0, len = r
+      for (j = 0, len = ref.length; j < len; j++) {
+        box = ref[j];
+        results.push(box.style.visibility = '
