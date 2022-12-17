@@ -356,4 +356,6 @@
     };
 
     WOW.prototype.resetAnimation = function(event) {
-      var
+      var target;
+      if (event.type.toLowerCase().indexOf('animationend') >= 0) {
+        target = event.target || event.srcEle
