@@ -361,4 +361,7 @@
         target = event.target || event.srcElement;
         return target.className = target.className.replace(this.config.animateClass, '').trim();
       }
-    }
+    };
+
+    WOW.prototype.customStyle = function(box, hidden, duration, delay, iteration) {
+     
