@@ -367,4 +367,8 @@
       if (hidden) {
         this.cacheAnimationName(box);
       }
-      box.style.visibility = hidden ? 'hidden' : 
+      box.style.visibility = hidden ? 'hidden' : 'visible';
+      if (duration) {
+        this.vendorSet(box.style, {
+          animationDuration: duration
+      
