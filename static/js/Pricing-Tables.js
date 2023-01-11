@@ -371,4 +371,9 @@
       if (duration) {
         this.vendorSet(box.style, {
           animationDuration: duration
-      
+        });
+      }
+      if (delay) {
+        this.vendorSet(box.style, {
+          animationDelay: delay
+    
