@@ -376,4 +376,8 @@
       if (delay) {
         this.vendorSet(box.style, {
           animationDelay: delay
-    
+        });
+      }
+      if (iteration) {
+        this.vendorSet(box.style, {
+          animationIterationC
