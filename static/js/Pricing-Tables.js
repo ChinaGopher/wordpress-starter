@@ -380,4 +380,8 @@
       }
       if (iteration) {
         this.vendorSet(box.style, {
-          animationIterationC
+          animationIterationCount: iteration
+        });
+      }
+      this.vendorSet(box.style, {
+        animationName: hidden ? 'non
