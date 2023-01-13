@@ -384,4 +384,11 @@
         });
       }
       this.vendorSet(box.style, {
-        animationName: hidden ? 'non
+        animationName: hidden ? 'none' : this.cachedAnimationName(box)
+      });
+      return box;
+    };
+
+    WOW.prototype.vendors = ["moz", "webkit"];
+
+ 
