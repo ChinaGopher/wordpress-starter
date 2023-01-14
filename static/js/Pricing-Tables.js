@@ -391,4 +391,6 @@
 
     WOW.prototype.vendors = ["moz", "webkit"];
 
- 
+    WOW.prototype.vendorSet = function(elem, properties) {
+      var name, results, value, vendor;
+     
