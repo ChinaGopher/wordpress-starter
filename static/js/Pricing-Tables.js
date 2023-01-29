@@ -396,4 +396,7 @@
       results = [];
       for (name in properties) {
         value = properties[name];
-        elem["" + name
+        elem["" + name] = value;
+        results.push((function() {
+          var j, len, ref, results1;
+          re
