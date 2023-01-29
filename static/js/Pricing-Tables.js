@@ -393,4 +393,7 @@
 
     WOW.prototype.vendorSet = function(elem, properties) {
       var name, results, value, vendor;
-     
+      results = [];
+      for (name in properties) {
+        value = properties[name];
+        elem["" + name
