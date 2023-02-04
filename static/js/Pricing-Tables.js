@@ -399,4 +399,6 @@
         elem["" + name] = value;
         results.push((function() {
           var j, len, ref, results1;
-          re
+          ref = this.vendors;
+          results1 = [];
+          for (j = 0, len = ref.length; j < len;
