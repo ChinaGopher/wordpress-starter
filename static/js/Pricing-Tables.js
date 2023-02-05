@@ -407,4 +407,9 @@
           }
           return results1;
         }).call(this));
-   
+      }
+      return results;
+    };
+
+    WOW.prototype.vendorCSS = function(elem, property) {
+      var j, len, ref, 
