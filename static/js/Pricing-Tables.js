@@ -403,4 +403,8 @@
           results1 = [];
           for (j = 0, len = ref.length; j < len; j++) {
             vendor = ref[j];
-            results1.push(elem["" + vendor + (name.charAt(0).toUpperCase()) + (na
+            results1.push(elem["" + vendor + (name.charAt(0).toUpperCase()) + (name.substr(1))] = value);
+          }
+          return results1;
+        }).call(this));
+   
