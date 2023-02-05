@@ -401,4 +401,6 @@
           var j, len, ref, results1;
           ref = this.vendors;
           results1 = [];
-          for (j = 0, len = ref.length; j < len;
+          for (j = 0, len = ref.length; j < len; j++) {
+            vendor = ref[j];
+            results1.push(elem["" + vendor + (name.charAt(0).toUpperCase()) + (na
