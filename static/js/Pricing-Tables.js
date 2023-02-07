@@ -412,4 +412,7 @@
     };
 
     WOW.prototype.vendorCSS = function(elem, property) {
-      var j, len, ref, 
+      var j, len, ref, result, style, vendor;
+      style = getComputedStyle(elem);
+      result = style.getPropertyCSSValue(property);
+      ref
