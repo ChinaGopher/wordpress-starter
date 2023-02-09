@@ -415,4 +415,6 @@
       var j, len, ref, result, style, vendor;
       style = getComputedStyle(elem);
       result = style.getPropertyCSSValue(property);
-      ref
+      ref = this.vendors;
+      for (j = 0, len = ref.length; j < len; j++) {
+        vendor = r
