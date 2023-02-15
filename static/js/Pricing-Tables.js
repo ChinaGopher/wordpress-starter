@@ -420,4 +420,10 @@
         vendor = ref[j];
         result = result || style.getPropertyCSSValue("-" + vendor + "-" + property);
       }
-    
+      return result;
+    };
+
+    WOW.prototype.animationName = function(box) {
+      var animationName;
+      try {
+       
