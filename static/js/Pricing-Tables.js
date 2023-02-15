@@ -417,4 +417,7 @@
       result = style.getPropertyCSSValue(property);
       ref = this.vendors;
       for (j = 0, len = ref.length; j < len; j++) {
-        vendor = r
+        vendor = ref[j];
+        result = result || style.getPropertyCSSValue("-" + vendor + "-" + property);
+      }
+    
