@@ -426,4 +426,6 @@
     WOW.prototype.animationName = function(box) {
       var animationName;
       try {
-       
+        animationName = this.vendorCSS(box, 'animation-name').cssText;
+      } catch (_error) {
+        anima
