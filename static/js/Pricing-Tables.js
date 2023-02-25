@@ -428,4 +428,6 @@
       try {
         animationName = this.vendorCSS(box, 'animation-name').cssText;
       } catch (_error) {
-        anima
+        animationName = getComputedStyle(box).getPropertyValue('animation-name');
+      }
+    
