@@ -430,4 +430,7 @@
       } catch (_error) {
         animationName = getComputedStyle(box).getPropertyValue('animation-name');
       }
-    
+      if (animationName === 'none') {
+        return '';
+      } else {
+        return animationName;
