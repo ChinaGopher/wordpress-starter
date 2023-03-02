@@ -434,3 +434,8 @@
         return '';
       } else {
         return animationName;
+      }
+    };
+
+    WOW.prototype.cacheAnimationName = function(box) {
+      return this.animati
