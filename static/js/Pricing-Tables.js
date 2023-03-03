@@ -442,4 +442,7 @@
     };
 
     WOW.prototype.cachedAnimationName = function(box) {
- 
+      return this.animationNameCache.get(box);
+    };
+
+    WOW.prototype.scrollHandler = function(
