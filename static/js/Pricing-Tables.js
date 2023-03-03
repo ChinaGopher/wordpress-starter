@@ -445,4 +445,9 @@
       return this.animationNameCache.get(box);
     };
 
-    WOW.prototype.scrollHandler = function(
+    WOW.prototype.scrollHandler = function() {
+      return this.scrolled = true;
+    };
+
+    WOW.prototype.scrollCallback = function() {
+      var 
