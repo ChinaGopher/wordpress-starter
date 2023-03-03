@@ -438,4 +438,8 @@
     };
 
     WOW.prototype.cacheAnimationName = function(box) {
-      return this.animati
+      return this.animationNameCache.set(box, this.animationName(box));
+    };
+
+    WOW.prototype.cachedAnimationName = function(box) {
+ 
