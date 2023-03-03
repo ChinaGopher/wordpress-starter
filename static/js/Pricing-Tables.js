@@ -450,4 +450,8 @@
     };
 
     WOW.prototype.scrollCallback = function() {
-      var 
+      var box;
+      if (this.scrolled) {
+        this.scrolled = false;
+        this.boxes = (function() {
+          var j, len, ref,
