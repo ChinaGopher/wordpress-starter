@@ -457,4 +457,9 @@
           var j, len, ref, results;
           ref = this.boxes;
           results = [];
-          for (j = 0, len = ref.length; j < l
+          for (j = 0, len = ref.length; j < len; j++) {
+            box = ref[j];
+            if (!(box)) {
+              continue;
+            }
+           
