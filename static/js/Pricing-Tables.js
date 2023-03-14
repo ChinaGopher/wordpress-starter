@@ -454,4 +454,7 @@
       if (this.scrolled) {
         this.scrolled = false;
         this.boxes = (function() {
-          var j, len, ref,
+          var j, len, ref, results;
+          ref = this.boxes;
+          results = [];
+          for (j = 0, len = ref.length; j < l
