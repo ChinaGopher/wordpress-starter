@@ -462,4 +462,8 @@
             if (!(box)) {
               continue;
             }
-           
+            if (this.isVisible(box)) {
+              this.show(box);
+              continue;
+            }
+            results.push(
