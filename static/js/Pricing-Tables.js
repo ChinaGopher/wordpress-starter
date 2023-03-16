@@ -466,4 +466,8 @@
               this.show(box);
               continue;
             }
-            results.push(
+            results.push(box);
+          }
+          return results;
+        }).call(this);
+        if (!(this.boxes.length || this.co
