@@ -470,4 +470,10 @@
           }
           return results;
         }).call(this);
-        if (!(this.boxes.length || this.co
+        if (!(this.boxes.length || this.config.live)) {
+          return this.stop();
+        }
+      }
+    };
+
+    WOW.prototype.offsetTop = fun
