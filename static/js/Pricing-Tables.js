@@ -476,4 +476,7 @@
       }
     };
 
-    WOW.prototype.offsetTop = fun
+    WOW.prototype.offsetTop = function(element) {
+      var top;
+      while (element.offsetTop === void 0) {
+        element = element.paren
