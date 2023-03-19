@@ -482,4 +482,10 @@
         element = element.parentNode;
       }
       top = element.offsetTop;
-      while (element = element.offse
+      while (element = element.offsetParent) {
+        top += element.offsetTop;
+      }
+      return top;
+    };
+
+    WOW.prototype.isVisible = f
