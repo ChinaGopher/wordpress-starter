@@ -488,4 +488,6 @@
       return top;
     };
 
-    WOW.prototype.isVisible = f
+    WOW.prototype.isVisible = function(box) {
+      var bottom, offset, top, viewBottom, viewTop;
+      offset = box.getAttr
