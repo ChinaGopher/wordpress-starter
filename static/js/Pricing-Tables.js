@@ -492,4 +492,6 @@
       var bottom, offset, top, viewBottom, viewTop;
       offset = box.getAttribute('data-wow-offset') || this.config.offset;
       viewTop = (this.config.scrollContainer && this.config.scrollContainer.scrollTop) || window.pageYOffset;
-      viewBottom = viewTop + Math.min(this.ele
+      viewBottom = viewTop + Math.min(this.element.clientHeight, this.util().innerHeight()) - offset;
+      top = this.offsetTop(box);
+      bottom = top + b
