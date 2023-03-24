@@ -498,4 +498,8 @@
       return top <= viewBottom && bottom >= viewTop;
     };
 
-    WOW.prototype.util =
+    WOW.prototype.util = function() {
+      return this._util != null ? this._util : this._util = new Util();
+    };
+
+    WOW.prototype.
