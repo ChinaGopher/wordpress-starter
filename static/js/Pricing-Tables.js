@@ -503,4 +503,11 @@
     };
 
     WOW.prototype.disabled = function() {
-      return !this.config.mobile && this.util().isMobile(navigator.
+      return !this.config.mobile && this.util().isMobile(navigator.userAgent);
+    };
+
+    return WOW;
+
+  })();
+
+}).call(this);
