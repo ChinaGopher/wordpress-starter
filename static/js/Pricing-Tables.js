@@ -502,4 +502,5 @@
       return this._util != null ? this._util : this._util = new Util();
     };
 
-    WOW.prototype.
+    WOW.prototype.disabled = function() {
+      return !this.config.mobile && this.util().isMobile(navigator.
